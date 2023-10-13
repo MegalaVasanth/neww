@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;orh.twowheeler&apos; to &apos;org.twowheeler&apos;&#x0D;&#x0A;- Original project: &apos;VehicleInformation&apos;&#x0D;&#x0A;- Original element: &apos;VehicleInformation/src/orh.twowheeler&apos;&#x0D;&#x0A;- Renamed element: &apos;VehicleInformation/src/org.twowheeler&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;orh.twowheeler&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;orh.twowheeler" name="org.twowheeler" qualified="false" references="true" stamp="1691923552459" textual="false" version="1.0"/>
+</session>

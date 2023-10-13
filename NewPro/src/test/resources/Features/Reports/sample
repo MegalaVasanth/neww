@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook Creadentials Test",
+        "description": "",
+        "id": "facebook-functionality-test;facebook-creadentials-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6179074200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be in the login page",
+            "match": {
+              "location": "StepDefin.user_should_be_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408033100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter the username and password",
+            "match": {
+              "location": "StepDefin.user_should_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137438300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the login button",
+            "match": {
+              "location": "StepDefin.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 737000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should verify the login page",
+            "match": {
+              "location": "StepDefin.user_should_verify_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Functionality test",
+    "description": "",
+    "id": "facebook-functionality-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/fblogin.feature",
+    "tags": []
+  }
+]

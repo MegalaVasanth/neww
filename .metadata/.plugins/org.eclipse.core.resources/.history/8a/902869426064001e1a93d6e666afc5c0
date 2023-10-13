@@ -1,0 +1,15 @@
+package org.day5.staticprgm;
+
+public class childConstructor extends ParentConstructor {
+	public childConstructor() {
+		super();
+		System.out.println("Inside the childConstructor ");
+		childConstructor child = new childConstructor();
+		child.dis();
+
+	}
+	public static void main(String[] args) {
+		childConstructor chil2 = new childConstructor();
+	}
+
+}

@@ -1,0 +1,28 @@
+package org.day5.staticprgm;
+import java.awt.DisplayMode;
+
+public class StaticVariable {
+	public static int staticVariable = 1;
+	int objvar = 1;
+
+	private void increment() {
+		int a;
+		staticVariable++;
+		objvar++;
+		System.out.println("objvar:" + objvar + " staticVariable:" + staticVariable);
+		StaticVariable.display();
+	}
+
+	private  static void display() {
+System.out.println("eeeeeeeeeee");
+	}
+	public static void main(String[] args) {
+		
+		StaticVariable ob = new StaticVariable();
+		ob.increment();
+		
+		StaticVariable ob2 = new StaticVariable();
+		ob2.increment();
+	}
+
+}

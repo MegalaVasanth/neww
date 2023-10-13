@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Java/src/org.myphone.phone&apos;&#x0D;&#x0A;- Original project: &apos;MyPhone&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.myphone.phone&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     org.phone.startendWith.java&#x0D;&#x0A;     org.phone.PhoneInfo.java" description="Copy compilation units" destination="=Java/src&lt;org.myphone.phone" element1="/src&lt;org.phone{startendWith.java" element2="/src&lt;org.phone{PhoneInfo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695961832873" units="2" version="1.0"/>
+</session>

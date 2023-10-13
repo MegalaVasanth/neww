@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;Java/src/org.day9.map&apos;&#x0D;&#x0A;- Original project: &apos;Day9_Map&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.day9.map&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     HashMapCls.java&#x0D;&#x0A;     MapEncap.java&#x0D;&#x0A;     MapUserDefined.java&#x0D;&#x0A;     EntrySetExtract.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=Java/src&lt;org.day9.map" element1="/src&lt;{HashMapCls.java" element2="/src&lt;{MapEncap.java" element3="/src&lt;{MapUserDefined.java" element4="/src&lt;{EntrySetExtract.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1695882273124" units="4" version="1.0"/>
+</session>

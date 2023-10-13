@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;Java/src/org.day6.stringprgm&apos;&#x0D;&#x0A;- Original project: &apos;Day6_StringPrgm&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.day6.stringprgm&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     FindReplace.java&#x0D;&#x0A;     startendWith.java&#x0D;&#x0A;     CompareStr.java&#x0D;&#x0A;     StringPrgm.java" description="Copy compilation units" destination="=Java/src&lt;org.day6.stringprgm" element1="/src&lt;{FindReplace.java" element2="/src&lt;{startendWith.java" element3="/src&lt;{CompareStr.java" element4="/src&lt;{StringPrgm.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695962083122" units="4" version="1.0"/>
+</session>

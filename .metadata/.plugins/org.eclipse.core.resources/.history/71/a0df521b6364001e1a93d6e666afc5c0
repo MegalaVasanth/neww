@@ -1,0 +1,12 @@
+package org.day5.staticprgm;
+
+public class StaticParent {
+	public static void staticMethod() {
+System.out.println("Inside Static Method");
+	}
+	public void nonStaticMethod() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Java/src/org.languagedetails.lang&apos;&#x0D;&#x0A;- Original project: &apos;LanguageDetails&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.languagedetails.lang&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     org.lang.StateDetails.java&#x0D;&#x0A;     org.lang.LanguageInfo.java" description="Copy compilation units" destination="=Java/src&lt;org.languagedetails.lang" element1="/src&lt;org.lang{StateDetails.java" element2="/src&lt;org.lang{LanguageInfo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695961184004" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;Java/src/org.day5.staticprgm&apos;&#x0D;&#x0A;- Original project: &apos;Day5_staticPrgm&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.day5.staticprgm&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     GrandConstructor.java&#x0D;&#x0A;     ParentConstructor.java&#x0D;&#x0A;     childConstructor.java&#x0D;&#x0A;     StaticVariable.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=Java/src&lt;org.day5.staticprgm" element1="/src&lt;{GrandConstructor.java" element2="/src&lt;{ParentConstructor.java" element3="/src&lt;{childConstructor.java" element4="/src&lt;{StaticVariable.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1695881959581" units="4" version="1.0"/>
+</session>

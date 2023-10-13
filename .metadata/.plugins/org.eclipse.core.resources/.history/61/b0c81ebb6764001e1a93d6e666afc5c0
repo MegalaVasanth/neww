@@ -1,0 +1,39 @@
+package org.day5.staticprgm;
+
+public class StaticVariable extends StaticParent {
+	public static int staticVariable = 1;
+	int objvar = 1;
+
+	private void increment() {
+		staticVariable++;
+		objvar++;
+		System.out.println("objvar:" + objvar + " staticVariable:" + staticVariable);
+		display();
+		staticMethod();
+		System.out.println(stVar);
+		show();
+		StaticVariable obj2 = new StaticVariable();
+		obj2.show();
+
+	}
+
+	private static void display() {
+		System.out.println("eeeeeeeeeee");
+		staticMethod();
+		System.out.println(stVar);
+	}
+
+	private void show() {
+		System.out.println("Show");
+	}
+
+	public static void main(String[] args) {
+
+		StaticVariable ob = new StaticVariable();
+		ob.increment();
+
+//		StaticVariable ob2 = new StaticVariable();
+//		ob2.increment();
+	}
+
+}

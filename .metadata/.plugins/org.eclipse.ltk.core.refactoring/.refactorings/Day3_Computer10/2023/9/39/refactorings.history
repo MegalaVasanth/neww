@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 5 elements to &apos;Java/src/org.day3.computer10&apos;&#x0D;&#x0A;- Original project: &apos;Day3_Computer10&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.day3.computer10&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Desktop.java&#x0D;&#x0A;     HardWare.java&#x0D;&#x0A;     Just.java&#x0D;&#x0A;     NormClass.java&#x0D;&#x0A;     Software.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=Java/src&lt;org.day3.computer10" element1="/src&lt;{Desktop.java" element2="/src&lt;{HardWare.java" element3="/src&lt;{Just.java" element4="/src&lt;{NormClass.java" element5="/src&lt;{Software.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1695879926701" units="5" version="1.0"/>
+</session>

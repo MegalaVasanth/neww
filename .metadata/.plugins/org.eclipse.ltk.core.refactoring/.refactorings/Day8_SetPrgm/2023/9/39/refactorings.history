@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SetProgm.java&apos; to &apos;Java/src/org.day8.setprgm&apos;&#x0D;&#x0A;- Original project: &apos;Day8_SetPrgm&apos;&#x0D;&#x0A;- Destination element: &apos;Java/src/org.day8.setprgm&apos;&#x0D;&#x0A;- Original element: &apos;SetProgm.java&apos;" description="Copy compilation unit" destination="=Java/src&lt;org.day8.setprgm" element1="/src&lt;{SetProgm.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695961925159" units="1" version="1.0"/>
+</session>

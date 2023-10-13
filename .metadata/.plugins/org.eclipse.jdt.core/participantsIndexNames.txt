@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+D:\myjavaexamples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4085511330.index
+\JunitCls\src\main\resources

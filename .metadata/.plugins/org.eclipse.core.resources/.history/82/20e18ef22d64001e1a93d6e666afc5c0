@@ -1,0 +1,110 @@
+package org.junit;
+
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class JunitCls {
+	public static void main(String[] args) throws IOException, InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://adactinhotelapp.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+
+		// ScreenShot
+//		TakesScreenshot screenShot = (TakesScreenshot) driver;
+//		File srcFile = screenShot.getScreenshotAs(OutputType.FILE);
+//		File destFile = new File("C:\\Users\\Luna\\Desktop\\megaa\\junitTC01.png");
+//		FileUtils.copyFile(srcFile, destFile);
+
+		driver.findElement(By.id("username")).sendKeys("megaainbox");
+		driver.findElement(By.id("password")).sendKeys("Test@123");
+		driver.findElement(By.id("login")).click();
+
+		driver.get("https://adactinhotelapp.com/SearchHotel.php");
+
+		WebElement ddLocation = driver.findElement(By.id("location"));
+		Select select = new Select(ddLocation);
+		select.selectByIndex(1);
+
+		WebElement ddHotel = driver.findElement(By.id("hotels"));
+		Select selectHotel = new Select(ddHotel);
+		selectHotel.selectByIndex(1);
+
+		WebElement ddRomeType = driver.findElement(By.id("room_type"));
+		Select selectRomeType = new Select(ddRomeType);
+		selectRomeType.selectByIndex(1);
+
+		WebElement ddNumOfRoom = driver.findElement(By.id("room_nos"));
+		Select selectNumOfRoom = new Select(ddNumOfRoom);
+		selectNumOfRoom.selectByIndex(1);
+
+		//datepick_in
+		driver.findElement(By.id("datepick_in")).sendKeys("06/10/2023");
+		
+		driver.findElement(By.id("datepick_out")).sendKeys("06/10/2023");
+		
+		// adult_room
+		WebElement ddAdultRoom = driver.findElement(By.id("adult_room"));
+		Select selectAdultRoom = new Select(ddAdultRoom);
+		selectAdultRoom.selectByIndex(1);
+		
+		WebElement ddChildRoom = driver.findElement(By.id("child_room"));
+		Select selectChildRoom = new Select(ddChildRoom);
+		selectChildRoom.selectByIndex(1);
+		
+		
+
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+
+		driver.get("https://adactinhotelapp.com/SelectHotel.php");
+		driver.findElement(By.xpath("//input[@type='radio']")).click();
+		driver.findElement(By.id("continue")).click();
+
+		driver.get("https://adactinhotelapp.com/BookHotel.php");
+		// first_name
+		driver.findElement(By.id("first_name")).sendKeys("Megala");
+		driver.findElement(By.id("last_name")).sendKeys("k");
+		driver.findElement(By.id("address")).sendKeys("tamilNadu");
+		driver.findElement(By.id("cc_num")).sendKeys("1234567890123456");
+
+		WebElement ddCreaditCard = driver.findElement(By.id("cc_type"));
+		Select selectddCreaditCard = new Select(ddCreaditCard);
+		selectddCreaditCard.selectByIndex(1);
+
+		WebElement ddExpireDate = driver.findElement(By.id("cc_exp_month"));
+		Select selectddExpireDate = new Select(ddExpireDate);
+		selectddExpireDate.selectByIndex(1);
+
+		// cc_exp_year
+		WebElement ddExpireYear = driver.findElement(By.id("cc_exp_year"));
+		Select selectddExpireYear = new Select(ddExpireYear);
+		selectddExpireYear.selectByIndex(18);
+
+		// cc_cvv
+		driver.findElement(By.id("cc_cvv")).sendKeys("789");
+		driver.findElement(By.xpath("//input[@id='book_now']")).click();
+
+		// https://adactinhotelapp.com/BookingConfirm.php
+
+		// ScreenShot
+//		TakesScreenshot screenShotend=(TakesScreenshot) driver;
+//		File srcFile1 = screenShotend.getScreenshotAs(OutputType.FILE);
+//		File destFile1 = new File("C:\\Users\\Luna\\Desktop\\megaa\\junitTC02.png");
+//		FileUtils.copyFile(srcFile1, destFile1);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package org.day5.staticprgm;
+
+public class StaticParent {
+	public static void staticMethod() {
+		// TODO Auto-generated method stub
+
+	}
+	private void nonStaticMethod() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
